@@ -47,13 +47,13 @@
                 android:id="@+id/imageView2"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:layout_marginStart="32dp"
-                android:layout_marginLeft="32dp"
+                android:layout_alignParentLeft="true"
                 android:layout_marginTop="32dp"
                 android:contentDescription="@string/todo"
                 android:src="@drawable/baseline_keyboard_arrow_left_white_48"
                 android:tint="@color/colorLightWhite"
-                app:srcCompat="@drawable/baseline_keyboard_arrow_left_white_48" />
+                app:srcCompat="@drawable/baseline_keyboard_arrow_left_white_48"
+                android:layout_alignParentStart="true" />
 
             <View
                 android:id="@+id/circle_view"
@@ -115,7 +115,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/let_s_fill_in"
                         android:textColor="@color/colorBlack"
-                        android:textSize="32sp"
+                        android:textSize="30sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -124,10 +124,12 @@
                         android:layout_height="wrap_content"
                         android:layout_toEndOf="@id/lets_fill_txt"
                         android:layout_toRightOf="@id/lets_fill_txt"
+                        android:layout_marginLeft="4dp"
                         android:text="@string/from_here"
                         android:textColor="@color/colorOrange"
                         android:textSize="30sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:layout_marginStart="4dp" />
                 </RelativeLayout>
 
             </LinearLayout>
@@ -135,5 +137,15 @@
 
         </RelativeLayout>
     </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_navigation_shape"
+        app:itemIconTint="@color/colorOrange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/navigation_menu"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

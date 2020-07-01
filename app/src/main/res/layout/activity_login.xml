@@ -192,8 +192,8 @@
                         android:id="@+id/signup_txt"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="1dp"
-                        android:layout_marginLeft="1dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginLeft="4dp"
                         android:layout_toEndOf="@+id/noAccount_txt"
                         android:layout_toRightOf="@id/noAccount_txt"
                         android:text="@string/signup"
@@ -205,7 +205,7 @@
                     android:id="@+id/term_block"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="64dp"
+                    android:layout_marginTop="48dp"
                     android:gravity="center">
 
                     <TextView
@@ -220,8 +220,8 @@
                         android:id="@+id/term_txt"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="1dp"
-                        android:layout_marginLeft="1dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginLeft="4dp"
                         android:layout_toEndOf="@id/agreement_txt"
                         android:layout_toRightOf="@id/agreement_txt"
                         android:text="@string/terms_of_services"
