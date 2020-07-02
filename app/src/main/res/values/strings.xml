@@ -49,7 +49,7 @@
     <string name="my_wish_list">My Wishlist</string>
     <string name="Cart">Cart</string>
     <string name="Continue">Continue</string>
-    <string name="uiAndUx">UI and UX Thinking\nFor beginners</string>
+    <string name="uiAndUx">UI &amp; UX Thinking\nFor beginners</string>
     <string name="By">By XXXX YYYY</string>
     <string name="price">$12.99</string>
     <string name="characterArt">Character Art\nSchool Course</string>
@@ -73,4 +73,22 @@
     <string name="backToCart">BACK TO CART</string>
     <string name="nameHint">XXXXX YYYYY</string>
     <string name="payment">Payment</string>
+    <string name="back">Back</string>
+    <string name="uiAndUx2">UI &amp; UX Thinking For beginners</string>
+    <string name="lectures">Lectures</string>
+    <string name="resource">Resource</string>
+    <string name="num1">01</string>
+    <string name="num2">02</string>
+    <string name="num3">03</string>
+    <string name="num4">04</string>
+    <string name="num5">05</string>
+    <string name="time1">5:35 mins</string>
+    <string name="time2">19:04 mins</string>
+    <string name="time3">12:48 mins</string>
+    <string name="time4">37:54 mins</string>
+    <string name="time5">26:35 mins</string>
+    <string name="welcomeToTheCourse">Welcome to the Course</string>
+    <string name="intro">Design Thinking - Intro</string>
+    <string name="process">Design Thinking Process</string>
+    <string name="perspective">Customer Perspective</string>
 </resources>
